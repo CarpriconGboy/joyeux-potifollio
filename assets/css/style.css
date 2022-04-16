@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 70px;
+    padding: 0px 20px;
+    background-color: #135275;
+}
+header nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo_container img{
+    position:absolute;
+    top: -5%;
+    padding-top: -20px;
+    height: 120px;
+    width: 205px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li{
+    list-style: none;
+    padding: 0px;
+
+}header nav ul li a{
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
